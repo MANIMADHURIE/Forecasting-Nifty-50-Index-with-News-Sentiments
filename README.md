@@ -5,12 +5,17 @@ Forecasting Nifty 50 Index with News Sentiments
 Market sentiment measures investors' feelings towards financial markets, impacting price changes and creating trading opportunities for both active and long-term investors. Sentiment analysis research shows a strong link between stock price shifts and news publications. Studies using algorithms like support vector machines, naive Bayes regression, and deep learning demonstrate this correlation. Deep learning effectiveness depends on the amount of training data.
 
 ## Project Agenda
-• Data Sourcing: Loading data from Investing.com and Twitter.
-• Scoring Metric: Since it is a regression problem, we will be using Root Mean Square Error (RMSE) to compare the performance of various models.
-• Feature Engineering and Data Cleaning: Did Text Processing and Text Processing and Timestamp Normalization.
-• Exploratory Data Analysis: Visualized Text and Market Data for Insights.
-• Modelling: Utilized various models like ARIMA, SARIMAX, LSTM, Prophet.
-• Anomaly Detection: Error Plots and Graphs for Anomaly Identification.
+• **Data Sourcing**: Loading data from Investing.com and Twitter.
+
+• **Scoring Metric**: Since it is a regression problem, we will be using Root Mean Square Error (RMSE) to compare the performance of various models.
+
+• **Feature Engineering and Data Cleaning**: Did Text Processing and Text Processing and Timestamp Normalization.
+
+• **Exploratory Data Analysis**: Visualized Text and Market Data for Insights.
+
+• **Modelling**: Utilized various models like ARIMA, SARIMAX, LSTM, Prophet.
+
+• **Anomaly Detection**: Error Plots and Graphs for Anomaly Identification.
 
 ## Feature Engineering
 For tweet preprocessing, the following steps have been implemented:
